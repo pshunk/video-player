@@ -1,0 +1,97 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <RootNamespace>video_player_wpf</RootNamespace>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="C:\Users\peter\.nuget\packages\kawazu\1.1.4\contentFiles\any\net5.0\AUTHORS" />
+    <Content Remove="C:\Users\peter\.nuget\packages\kawazu\1.1.4\contentFiles\any\net5.0\char.bin" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="C:\Users\peter\.nuget\packages\kawazu\1.1.4\contentFiles\any\net5.0\COPYING" />
+    <None Remove="C:\Users\peter\.nuget\packages\kawazu\1.1.4\contentFiles\any\net5.0\matrix.bin" />
+    <None Remove="C:\Users\peter\.nuget\packages\kawazu\1.1.4\contentFiles\any\net5.0\sys.dic" />
+    <None Remove="C:\Users\peter\.nuget\packages\kawazu\1.1.4\contentFiles\any\net5.0\unk.dic" />
+    <None Remove="icons\pause_icon.png" />
+    <None Remove="icons\play_icon.png" />
+    <None Remove="icons\stop_icon.png" />
+    <None Remove="icons\volume_mute_fill_icon.png" />
+    <None Remove="icons\volume_up_fill_icon.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="icons\pause_icon.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="icons\play_icon.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="icons\stop_icon.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="icons\volume_mute_fill_icon.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="icons\volume_up_fill_icon.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FFMpegCore" Version="5.2.0" />
+    <PackageReference Include="Kawazu" Version="1.1.4" />
+    <PackageReference Include="LibNMeCab.IpaDicBin" Version="0.10.0" />
+    <PackageReference Include="libse" Version="4.0.12" />
+    <PackageReference Include="LibVLCSharp.WPF" Version="3.9.3" />
+    <PackageReference Include="VideoLAN.LibVLC.Windows" Version="3.0.21" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="util\" />
+    <Folder Include="Resources\ffmpeg\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="C:\Users\peter\.nuget\packages\kawazu\1.1.4\contentFiles\any\net5.0\AUTHORS">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="C:\Users\peter\.nuget\packages\kawazu\1.1.4\contentFiles\any\net5.0\char.bin">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Update="C:\Users\peter\.nuget\packages\kawazu\1.1.4\contentFiles\any\net5.0\COPYING">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="C:\Users\peter\.nuget\packages\kawazu\1.1.4\contentFiles\any\net5.0\matrix.bin">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="C:\Users\peter\.nuget\packages\kawazu\1.1.4\contentFiles\any\net5.0\sys.dic">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="C:\Users\peter\.nuget\packages\kawazu\1.1.4\contentFiles\any\net5.0\unk.dic">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Resources\Dictionary\JMdict_e.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\ffmpeg\ffmpeg.exe">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\ffmpeg\ffprobe.exe">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>

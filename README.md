@@ -1,1 +1,2 @@
-# video-player
+# video-player-for-japanese-language-study
+This is a video player that was designed to assist with learning Japanese. It is compatible with all of the most common video codecs. The intended use is for watching a video file with Japanese audio and a Japanese subtitle file. The application will parse the subtitle file and allow the user to quickly view a definition for any word in the currently visible subtitle by hovering the mouse over it. The subtitle display also includes furigana readings for kanji. Although this program can play any video file, non Japanese subtitles will result in visual errors.

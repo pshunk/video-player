@@ -21,7 +21,6 @@ namespace video_player_wpf.Models
 
         private string GetFurigana()
         {
-            //IEnumerable<char> chars = Reading.Where(c => Surface.Contains(c));
             char c;
             string beforeKanji = "";
             string afterKanji = "";

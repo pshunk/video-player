@@ -16,10 +16,13 @@ namespace video_player_wpf.Models
         {
             get { return displaySubs; }
         }
+        public int SubtitleDelay { get; set; }
+        private int delayInterval = 500;
 
         public SubtitleCollection()
         {
             this.chunks = [];
+            SubtitleDelay = 0;
         }
 
         public void LoadSubtitle(Subtitle subtitle)
@@ -55,15 +58,15 @@ namespace video_player_wpf.Models
         {
             try
             {
-                if (!(CurrentChunk.startTime - 10 <= currentTime && currentTime < chunks[currentSubtitleId + 1].startTime))
+                if (!(CurrentChunk.startTime - 10 <= (currentTime - SubtitleDelay) && (currentTime - SubtitleDelay) < chunks[currentSubtitleId + 1].startTime))
                 {
-                    var currentSubtitle = chunks.Where(chunk => chunk.startTime <= currentTime && currentTime <= chunks[chunk.id + 1].startTime);
+                    var currentSubtitle = chunks.Where(chunk => chunk.startTime <= (currentTime - SubtitleDelay) && (currentTime - SubtitleDelay) <= chunks[chunk.id + 1].startTime);
                     if (currentSubtitle.Any())
                     {
                         currentSubtitleId = currentSubtitle.First().id;
                     }
                 }
-                if (currentTime < CurrentChunk.endTime)
+                if ((CurrentChunk.startTime - 10 <= currentTime - SubtitleDelay) && (currentTime - SubtitleDelay) < CurrentChunk.endTime)
                 {
                     displaySubs = true;
                 }
@@ -80,11 +83,11 @@ namespace video_player_wpf.Models
 
         public long PreviousSub(long currentTime)
         {
-            if (chunks[currentSubtitleId].endTime >= currentTime)
+            if (chunks[currentSubtitleId].endTime >= (currentTime - SubtitleDelay))
             {
                 currentSubtitleId--;
             }
-            return chunks[currentSubtitleId].startTime;
+            return chunks[currentSubtitleId].startTime + SubtitleDelay;
         }
 
         public long NextSub()
@@ -93,7 +96,17 @@ namespace video_player_wpf.Models
             {
                 currentSubtitleId++;
             }
-            return chunks[currentSubtitleId].startTime;
+            return chunks[currentSubtitleId].startTime + SubtitleDelay;
+        }
+
+        public void IncreaseSubtitleDelay()
+        {
+            SubtitleDelay += delayInterval;
+        }
+
+        public void DecreaseSubtitleDelay()
+        {
+            SubtitleDelay -= delayInterval;
         }
     }
 }

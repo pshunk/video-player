@@ -17,12 +17,6 @@ namespace video_player_wpf.Models
         {
             get { return isMuted; }
         }
-        //private int oldAudioTrack = -1;
-        //public int OldAudioTrack
-        //{
-        //    get { return oldAudioTrack; }
-        //    set { oldAudioTrack = value; }
-        //}
         private int oldVolume;
         public TrackDescription[] AudioTracks
         {
@@ -113,15 +107,12 @@ namespace video_player_wpf.Models
         {
             if (!isMuted)
             {
-                //oldAudioTrack = AudioTrack;
-                //SetAudioTrack(-1);
                 oldVolume = Volume;
                 Volume = 0;
                 isMuted = true;
             }
             else
             {
-                //SetAudioTrack(oldAudioTrack);
                 Volume = oldVolume;
                 isMuted = false;
             }

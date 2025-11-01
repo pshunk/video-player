@@ -59,6 +59,7 @@
                 <ColumnDefinition Width="Auto"/>
                 <ColumnDefinition Width="Auto"/>
                 <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
                 <ColumnDefinition/>
                 <ColumnDefinition Width="Auto"/>
                 <ColumnDefinition Width="100"/>
@@ -75,10 +76,11 @@
             </Button>
             <Label Name="AudioTrackLabel" Grid.Column="2" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
             <Label Name="SubtitleTrackLabel" Grid.Column="3" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
-            <Button Name="MuteButton" Grid.Column="5" VerticalAlignment="Center" HorizontalAlignment="Center" Click="MuteButton_Click" Width="45" Height="45" IsEnabled="False" Focusable="False">
+            <Label Name="SubtitleDelayLabel" Grid.Column="4" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
+            <Button Name="MuteButton" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Center" Click="MuteButton_Click" Width="45" Height="45" IsEnabled="False" Focusable="False">
                 <Image Name="MuteIcon" Source="/icons/volume_up_fill_icon.png" Width="45" Height="45" HorizontalAlignment="Center" VerticalAlignment="Center"/>
             </Button>
-            <Track Name="VolumeTrackBar" Grid.Column="6" Maximum="100" IsEnabled="False" VerticalAlignment="Center" Height="25" Value="100" Margin="10,0,0,0">
+            <Track Name="VolumeTrackBar" Grid.Column="7" Maximum="100" IsEnabled="False" VerticalAlignment="Center" Height="25" Value="100" Margin="10,0,0,0">
                 <Track.DecreaseRepeatButton>
                     <RepeatButton Click="VolumeRepeatButton_Click" Focusable="False">
                         <RepeatButton.Background>
@@ -97,7 +99,7 @@
                     </RepeatButton>
                 </Track.IncreaseRepeatButton>
             </Track>
-            <Label Name="TimerLabel" Grid.Column="7" Content="0:00/0:00" IsEnabled="False" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
+            <Label Name="TimerLabel" Grid.Column="8" Content="0:00/0:00" IsEnabled="False" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
         </Grid>
     </Grid>
 </Window>

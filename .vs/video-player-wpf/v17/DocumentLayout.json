@@ -7,28 +7,28 @@
       "RelativeMoniker": "D:0:0:{DFDA4678-4627-4960-9D48-1D23320F3658}|video-player-wpf.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{DFDA4678-4627-4960-9D48-1D23320F3658}|video-player-wpf.csproj|d:\\workspace\\video-player-wpf\\models\\videoplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFDA4678-4627-4960-9D48-1D23320F3658}|video-player-wpf.csproj|solutionrelative:models\\videoplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{DFDA4678-4627-4960-9D48-1D23320F3658}|video-player-wpf.csproj|d:\\workspace\\video-player-wpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{DFDA4678-4627-4960-9D48-1D23320F3658}|video-player-wpf.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DFDA4678-4627-4960-9D48-1D23320F3658}|video-player-wpf.csproj|d:\\workspace\\video-player-wpf\\models\\dictionary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DFDA4678-4627-4960-9D48-1D23320F3658}|video-player-wpf.csproj|solutionrelative:models\\dictionary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DFDA4678-4627-4960-9D48-1D23320F3658}|video-player-wpf.csproj|d:\\workspace\\video-player-wpf\\models\\word.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFDA4678-4627-4960-9D48-1D23320F3658}|video-player-wpf.csproj|solutionrelative:models\\word.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DFDA4678-4627-4960-9D48-1D23320F3658}|video-player-wpf.csproj|d:\\workspace\\video-player-wpf\\models\\subtitlecollection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DFDA4678-4627-4960-9D48-1D23320F3658}|video-player-wpf.csproj|solutionrelative:models\\subtitlecollection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{DFDA4678-4627-4960-9D48-1D23320F3658}|video-player-wpf.csproj|d:\\workspace\\video-player-wpf\\models\\dictionary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFDA4678-4627-4960-9D48-1D23320F3658}|video-player-wpf.csproj|solutionrelative:models\\dictionary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{DFDA4678-4627-4960-9D48-1D23320F3658}|video-player-wpf.csproj|d:\\workspace\\video-player-wpf\\models\\subtitlechunk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DFDA4678-4627-4960-9D48-1D23320F3658}|video-player-wpf.csproj|solutionrelative:models\\subtitlechunk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DFDA4678-4627-4960-9D48-1D23320F3658}|video-player-wpf.csproj|d:\\workspace\\video-player-wpf\\models\\videoplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DFDA4678-4627-4960-9D48-1D23320F3658}|video-player-wpf.csproj|solutionrelative:models\\videoplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DFDA4678-4627-4960-9D48-1D23320F3658}|video-player-wpf.csproj|d:\\workspace\\video-player-wpf\\models\\word.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DFDA4678-4627-4960-9D48-1D23320F3658}|video-player-wpf.csproj|solutionrelative:models\\word.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,23 +38,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "VideoPlayer.cs",
-              "DocumentMoniker": "D:\\workspace\\video-player-wpf\\Models\\VideoPlayer.cs",
-              "RelativeDocumentMoniker": "Models\\VideoPlayer.cs",
-              "ToolTip": "D:\\workspace\\video-player-wpf\\Models\\VideoPlayer.cs",
-              "RelativeToolTip": "Models\\VideoPlayer.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAUwDwAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-30T22:18:14.902Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "SubtitleChunk.cs",
               "DocumentMoniker": "D:\\workspace\\video-player-wpf\\Models\\SubtitleChunk.cs",
               "RelativeDocumentMoniker": "Models\\SubtitleChunk.cs",
@@ -66,25 +54,25 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "SubtitleCollection.cs",
               "DocumentMoniker": "D:\\workspace\\video-player-wpf\\Models\\SubtitleCollection.cs",
               "RelativeDocumentMoniker": "Models\\SubtitleCollection.cs",
               "ToolTip": "D:\\workspace\\video-player-wpf\\Models\\SubtitleCollection.cs",
               "RelativeToolTip": "Models\\SubtitleCollection.cs",
-              "ViewState": "AgIAAEkAAAAAAAAAAAAkwE0AAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAuwFQAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-07T21:03:04.427Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Dictionary.cs",
               "DocumentMoniker": "D:\\workspace\\video-player-wpf\\Models\\Dictionary.cs",
               "RelativeDocumentMoniker": "Models\\Dictionary.cs",
               "ToolTip": "D:\\workspace\\video-player-wpf\\Models\\Dictionary.cs",
               "RelativeToolTip": "Models\\Dictionary.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAA0wAsAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-12T19:28:08.601Z"
             },
@@ -96,33 +84,48 @@
               "RelativeDocumentMoniker": "MainWindow.xaml.cs",
               "ToolTip": "D:\\workspace\\video-player-wpf\\MainWindow.xaml.cs",
               "RelativeToolTip": "MainWindow.xaml.cs",
-              "ViewState": "AgIAAIEAAAAAAAAAAAAuwKgAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAACUAAAAAAAAAAIAxwDYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-29T02:22:24.549Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "Word.cs",
               "DocumentMoniker": "D:\\workspace\\video-player-wpf\\Models\\Word.cs",
               "RelativeDocumentMoniker": "Models\\Word.cs",
               "ToolTip": "D:\\workspace\\video-player-wpf\\Models\\Word.cs",
               "RelativeToolTip": "Models\\Word.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAAADAAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-13T21:08:32.739Z"
+              "WhenOpened": "2025-08-13T21:08:32.739Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "VideoPlayer.cs",
+              "DocumentMoniker": "D:\\workspace\\video-player-wpf\\Models\\VideoPlayer.cs",
+              "RelativeDocumentMoniker": "Models\\VideoPlayer.cs",
+              "ToolTip": "D:\\workspace\\video-player-wpf\\Models\\VideoPlayer.cs",
+              "RelativeToolTip": "Models\\VideoPlayer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T22:18:14.902Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "D:\\workspace\\video-player-wpf\\MainWindow.xaml",
               "RelativeDocumentMoniker": "MainWindow.xaml",
               "ToolTip": "D:\\workspace\\video-player-wpf\\MainWindow.xaml",
               "RelativeToolTip": "MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-07-29T02:22:26.132Z"
+              "WhenOpened": "2025-07-29T02:22:26.132Z",
+              "EditorCaption": ""
             }
           ]
         }

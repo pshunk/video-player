@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("video-player-wpf")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ce4da2acf8c5b1894842d3b555f499080122ce9b")]
 [assembly: System.Reflection.AssemblyProductAttribute("video-player-wpf")]
 [assembly: System.Reflection.AssemblyTitleAttribute("video-player-wpf")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

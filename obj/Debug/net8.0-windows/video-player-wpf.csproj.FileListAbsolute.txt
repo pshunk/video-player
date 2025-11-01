@@ -903,3 +903,4 @@ D:\workspace\video-player-wpf\bin\Debug\net8.0-windows\matrix.bin
 D:\workspace\video-player-wpf\bin\Debug\net8.0-windows\sys.dic
 D:\workspace\video-player-wpf\bin\Debug\net8.0-windows\unk.dic
 D:\workspace\video-player-wpf\bin\Debug\net8.0-windows\Kawazu.dll
+D:\workspace\video-player-wpf\obj\Debug\net8.0-windows\video-player-wpf.sourcelink.json

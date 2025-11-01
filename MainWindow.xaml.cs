@@ -6,6 +6,7 @@ using LibVLCSharp.Shared.Structures;
 using LibVLCSharp.WPF;
 using Microsoft.Win32;
 using Nikse.SubtitleEdit.Core.Common;
+using System.Diagnostics;
 using System.IO;
 using System.Windows;
 using System.Windows.Controls;
@@ -110,6 +111,8 @@ namespace video_player_wpf
                 DisplaySubtitles();
                 videoHeight = 1;
                 videoWidth = 1;
+                subtitles.SubtitleDelay = 0;
+                SubtitleDelayLabel.Content = "0";
             });
         }
 
@@ -175,6 +178,16 @@ namespace video_player_wpf
                 if (e.Key == Key.K)
                 {
                     vp.Seek(1);
+                }
+                if (e.Key == Key.F1)
+                {
+                    subtitles.DecreaseSubtitleDelay();
+                    SubtitleDelayLabel.Content = subtitles.SubtitleDelay;
+                }
+                if (e.Key == Key.F2)
+                {
+                    subtitles.IncreaseSubtitleDelay();
+                    SubtitleDelayLabel.Content = subtitles.SubtitleDelay;
                 }
             }
         }
@@ -365,12 +378,13 @@ namespace video_player_wpf
             {
                 AudioTrackLabel.Content = vp.CurrentAudioTrack.Name;
                 SubtitleTrackLabel.Content = vp.CurrentSubtitleTrack.Name;
-
+                SubtitleDelayLabel.Content = subtitles.SubtitleDelay;
             }
             catch
             {
                 AudioTrackLabel.Content = "";
                 SubtitleTrackLabel.Content = "";
+                SubtitleDelayLabel.Content = "";
             }
         }
 
